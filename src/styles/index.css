@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Centralized Gradient Brand Theme: Orange → Pink → Violet */
+  /* Change this single property to re-theme the entire application */
+  --brand-gradient: linear-gradient(135deg, #f97316 0%, #ec4899 50%, #8b5cf6 100%);
+  --brand-gradient-hover: linear-gradient(135deg, #ea580c 0%, #db2777 50%, #7c3aed 100%);
+}
+
+.bg-brand-gradient {
+  background-image: var(--brand-gradient);
+}
+
+.bg-brand-gradient-hover:hover {
+  background-image: var(--brand-gradient-hover);
+}
+
+.text-brand-gradient {
+  background-image: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
