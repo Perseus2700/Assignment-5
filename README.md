@@ -30,6 +30,7 @@
 
 ---
 
+
 ## 🛠️ Technologies Used
 
 - **Frontend Framework**: [React.js](https://react.dev/) (Hooks: `useState`, `useEffect`)
