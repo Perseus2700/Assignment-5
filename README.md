@@ -12,6 +12,7 @@
 
 ## 🌟 3 Key Features
 
+
 1. **Interactive Stack Builder with Real-Time Duplication Safeguards**:
    - Seamlessly add technologies from the catalog to your custom "Your Stack" drawer.
    - Instant visual feedback: cards dynamically transition to a disabled `✓ Added to Stack` state.
