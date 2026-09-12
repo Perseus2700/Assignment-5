@@ -73,6 +73,8 @@ In this project, `useEffect` was required to fetch `technologies.json` asynchron
 **Answer:**  
 React relies on the unique `key` prop during its Virtual DOM diffing process to identify which items in a list have been inserted, updated, or removed. A stable, unique key enables React to efficiently re-render only the modified DOM elements rather than re-creating the entire list, ensuring optimal performance and preventing UI state discrepancies.
 
+
+
 ### 6. What is conditional rendering? Show one place you used it (example: the empty stack message).
 **Answer:**  
 Conditional rendering is the practice of rendering specific UI components or markup based on Boolean logic or state conditions.  
